@@ -11,8 +11,8 @@ import requests
 #API 
 agent = {"User-Agent": 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
 
-#CHAVE    TJmq3BXJK3Zh9YZoRQKmlrHlPEIlEeaK
-api = requests.get("https://editacodigo.com.br/index/api-whatsapp/TJmq3BXJK3Zh9YZoRQKmlrHlPEIlEeaK" ,  headers=agent)
+#CHAVE    informe sua chave
+api = requests.get("https://editacodigo.com.br/index/api-whatsapp/ informe sua chave" ,  headers=agent)
 api = api.text
 api = api.split(".n.")
 bolinha_notificacao = api[3].strip()
